@@ -116,7 +116,7 @@ func (doc *EnvDoc) Add(token Node) {
 }
 
 func (doc *EnvDoc) AddRange(tokens []Node) {
-	if tokens == nil || len(tokens) == 0 {
+	if len(tokens) == 0 {
 		return
 	}
 
