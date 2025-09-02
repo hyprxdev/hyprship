@@ -11,7 +11,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/hyprxlabs/go/cmdargs"
+	"github.com/hyprxdev/hyprship/cmdargs"
 )
 
 const (

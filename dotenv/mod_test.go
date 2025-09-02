@@ -3,7 +3,7 @@ package dotenv_test
 import (
 	"testing"
 
-	"github.com/hyprxlabs/go/dotenv"
+	"github.com/hyprxdev/hyprship/dotenv"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -426,7 +426,7 @@ line3
 "
 Key8="value with \nnewlines"
 Key9="value with \t tabs"
-Key11="😈"	
+Key11="😈"
 	`
 
 	doc, err := dotenv.Parse(envContext)

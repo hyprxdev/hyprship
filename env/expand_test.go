@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/hyprxlabs/go/env"
+	"github.com/hyprxdev/hyprship/env"
 )
 
 func TestExpand_BasicVariable(t *testing.T) {

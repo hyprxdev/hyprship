@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyprxlabs/go/env"
+	"github.com/hyprxdev/hyprship/env"
 
 	"github.com/stretchr/testify/assert"
 )
